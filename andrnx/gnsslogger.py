@@ -159,6 +159,56 @@ class GnssLogHeader(object):
         """
         """
         self.get_fieldnames(line)
+    
+    def parse_uncalaccel(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+    
+    def parse_accel(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+
+    def parse_uncalgyro(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+
+    def parse_gyro(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+    
+    def parse_uncalmag(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+ 
+    def parse_mag(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+    
+    def parse_pressure(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+
+    def parse_orientationdeg(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+    
+    def parse_status(self, line):
+        """
+        """
+        self.get_fieldnames(line)
+
+    def parse_agc(self, line):
+        """
+        """
+        self.get_fieldnames(line) 
 
 # ------------------------------------------------------------------------------
 
